@@ -1,0 +1,38 @@
+.cootage {
+  padding: 80px 0px;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+.cootage__text-container {
+  margin-left: 126px;
+}
+.cootage__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+.cootage__text,
+.cootage__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: #848fac;
+  max-width: 584px;
+}
+.cootage__text {
+  margin-bottom: 16px;
+}
+.cootage__desc {
+  margin-bottom: 32px;
+}
+.cootage__btn {
+  padding: 16px 32px;
+}

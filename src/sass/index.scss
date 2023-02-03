@@ -1,3 +1,10 @@
 @import './common';
-@import './example';
+@import './utils/reset';
+@import './utils/mixins';
+@import './utils/body';
+@import './utils/container';
+@import './utils/visually-hidden';
+@import './utils/breakpoints';
+
 @import './header';
+@import './hero';

@@ -1,16 +1,33 @@
 .page-header {
-  background-color: aqua;
+  padding: 46px 0px;
+}
+.logo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.22;
+  color: #192252;
 }
 .navigation {
-  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-list {
-  list-style: none;
-  background-color: aquamarine;
+  display: flex;
+  gap: 32px;
 }
 .nav-item {
-  color: bisque;
+  padding: 20px 10px;
 }
 .nav-link {
-  color: tomato;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #192252;
+}
+.header__button {
+  padding: 14px 16px;
 }

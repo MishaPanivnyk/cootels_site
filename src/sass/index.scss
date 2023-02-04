@@ -1,4 +1,4 @@
-@import './common';
+@import './components/common';
 @import './utils/reset';
 @import './utils/mixins';
 @import './utils/body';
@@ -6,11 +6,11 @@
 @import './utils/visually-hidden';
 @import './utils/breakpoints';
 
-@import './header';
-@import './hero';
-@import './cootage';
-@import './features';
-@import './choose';
-@import './start';
-@import './customers';
-@import './footer';
+@import './components/header';
+@import './components/hero';
+@import './components/cootage';
+@import './components/features';
+@import './components/choose';
+@import './components/start';
+@import './components/customers';
+@import './components/footer';

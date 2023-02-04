@@ -21,7 +21,19 @@
       <include src="./partials/cootage.html"></include>
       <include src="./partials/features.html"></include>
       <include src="./partials/choose.html"></include>
+      <include src="./partials/customers.html"></include>
     </main>
     <include src="./partials/footer.html"></include>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from 'swiper/swiper-bundle.esm.js';
+      import 'swiper/swiper-bundle.css';
+      var swiper = new Swiper('.swiper', {
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true,
+        },
+      });
+    </script>
   </body>
 </html>

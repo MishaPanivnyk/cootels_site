@@ -43,6 +43,7 @@
   background: #ffffff;
   border-radius: 4px;
   padding: 32px 36px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .start__choose-item:not(:last-child) {
   margin-bottom: 24px;

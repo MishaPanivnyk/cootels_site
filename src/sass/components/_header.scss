@@ -8,6 +8,14 @@
   font-size: 32px;
   line-height: 1.22;
   color: #192252;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo:hover,
+.logo:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: #f87706;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation {
   display: flex;

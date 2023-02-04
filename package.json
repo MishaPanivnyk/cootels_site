@@ -5,7 +5,7 @@
   "homepage": "https://MishaPanivnyk.github.io/cootels_site",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel/"
+    "build": "parcel build src/*.html --public-url /cootels_site/"
   },
   "repository": {
     "type": "git",

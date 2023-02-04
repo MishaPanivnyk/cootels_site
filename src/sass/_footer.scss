@@ -1,0 +1,49 @@
+.footer {
+  background: #0b265a;
+  padding: 120px 0px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footer__logo {
+  color: white;
+  margin-bottom: 13px;
+}
+
+.footer__logo-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #d9dbde;
+  max-width: 186px;
+  margin-bottom: 36px;
+}
+.footer__soc-list {
+  display: flex;
+  gap: 24px;
+}
+.footer__rooms-list {
+  //   gap: 24px;
+}
+.footer__rooms-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+.footer__rooms-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: #d9dbde;
+}
+.footer__rooms-title {
+  margin-bottom: 24px;
+}
+.footer__rooms-item:not(:last-child) {
+  margin-bottom: 24px;
+}
